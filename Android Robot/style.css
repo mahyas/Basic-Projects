@@ -1,12 +1,14 @@
 h1 {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Marck Script', cursive;;
+	margin-top: 10%;
 }
 
 .robots {
 	flex-wrap: wrap;
 	display: flex;
 	justify-content: center;
+	margin-top: 4%;
 }
 
 .head, 
@@ -15,7 +17,7 @@ h1 {
 .right_arm, 
 .left_leg, 
 .right_leg {
-	 background-color: #5f93e8;
+	 background-color: #3BB500;
 }
 
 .head { 
@@ -51,9 +53,25 @@ h1 {
 	margin-right: 10px; 
 } 
 
+.left_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(30deg);
+}
+
 .right_arm { 
 	margin-left: 10px; 
 } 
+
+.right_arm:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-30deg);
+}
 
 .torso { 
 	width: 200px; 
@@ -89,6 +107,14 @@ h1 {
 
 .right_leg { 
 	margin-left: 30px; 
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
 }
 
 .left_eye, .right_eye { 
