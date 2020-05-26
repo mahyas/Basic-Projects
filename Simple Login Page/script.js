@@ -46,3 +46,4 @@ function logIn(user, pass) {
 }
 
 logIn(userNamePrompt, passwordPrompt);
+
