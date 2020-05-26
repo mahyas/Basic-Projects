@@ -1,0 +1,112 @@
+Body {
+	Margin: auto 0;
+}
+
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    /* transition: all 0.2s linear; */
+
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.8em;
+    margin:0;
+}
+
+li{
+    padding: 20px;
+}
+
+.push{
+    /* gives automatic sized margin to the left of the element */
+    margin-left: auto;
+}
+
+a{
+    color: #f5f5f6;
+     text-decoration: none;
+}
+
+
+/* Cover */
+.container{
+    /* not grid because it's going to be just text and some bottums */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+}
+
+/* Grid */
+.grid-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+/* all children images of the box */
+
+
+.box{
+    background-color: #f5f5f6;
+    padding: 130px;
+    margin: 20px;
+    font-size: 3vmin;
+    color: #590022;
+    text-align:center;
+}
+
+.box > img{
+    width:70%;
+}
+
+.box > text{
+    width:70%;
+}
+
+footer {
+    text-align: center;
+}
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green{
+    background: rgb(255, 44, 114); /* Old browsers */
+}
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #ffcdf3; /* Old browsers */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow{
+    background: rgb(255, 44, 114); /* Old browsers */
+    
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue{
+    background: #ffcdf3; /* Old browsers */
+    
+}
